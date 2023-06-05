@@ -12,6 +12,7 @@
   background-color: #fff;
   border-bottom: 2px solid #ccc;
 }
+
 .name {
   width: 250px;
   height: 100%;
@@ -25,6 +26,7 @@
   margin-left: 250px;
   text-decoration: none;
 }
+
 .nav {
   width: 400px;
   height: 100%;
@@ -32,30 +34,33 @@
   padding: 35px;
   margin-right: 200px;
 }
+
 li:not(:last-child) {
   border-right: 1px solid #efefef;
 }
-.nav > ul > li > a {
-  text-decoration: none;
 
-  color: red;
+.nav>ul>li>a {
+  text-decoration: none;
   font-size: 18px;
   color: #999;
   padding: 20px;
 }
-.nav > ul > li {
+
+.nav>ul>li {
   list-style: none;
   float: left;
 }
+
 /* header CSS codes finished */
 
 /* main CSS codes started */
 .main-general {
   width: 100%;
-  height: 650px;
+  height: 950px;
   background-image: url(../images/concrete_seamless.png);
   padding-top: 40px;
 }
+
 .left {
   width: 650px;
   height: 95%;
@@ -65,12 +70,14 @@ li:not(:last-child) {
   margin-left: 250px;
   float: left;
 }
-.left > h1 {
+
+.left>h1 {
   padding: 30px 0 30px 30px;
   font-size: 30px;
   font-weight: 700;
   color: #4aaaa5;
 }
+
 hr {
   width: 90%;
   height: 3px;
@@ -79,45 +86,16 @@ hr {
   background-color: #ddd;
   margin-left: 30px;
 }
-.left > section {
-  margin-left: 30px;
-  margin-top: 20px;
+.left>section{
+  /* margin-top: 40px; */
+  /* margin-left: 30px; */
 }
-.labels {
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #777;
-  margin-bottom: 20px;
+.img{
+  width: 305px;
+  height: 240px;
+  padding-left: 32px;
+  padding-top: 40px;
 }
-.text{
-    width: 94%;
-    height: 35px;
-    border-width: 0;
-    border: 1px solid #ddd;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0 10px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.text1{
-    width: 94%;
-    border-width: 0;
-    border: 1px solid #ddd;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0 10px;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.button{
-    padding: 10px 30px ;
-    font-size: 18px;
-    color: #fff;
-    background-color: #4aaaa5;
-    border: none; 
-}
-
 /* aside css codes started */
 .aside {
   width: 270px;
@@ -128,7 +106,8 @@ hr {
   margin-left: 40px;
   float: left;
 }
-.aside > hr {
+
+.aside>hr {
   width: 80%;
   height: 1px;
   border-width: 0;
@@ -137,24 +116,29 @@ hr {
   margin-left: 30px;
   margin-bottom: 15px;
 }
-.aside > h2 {
+
+.aside>h2 {
   padding: 30px 0 25px 30px;
   font-size: 22px;
   font-weight: 700;
   color: #4aaaa5;
 }
+
 .social {
   margin-left: 28px;
 }
+
 .imgs {
   width: 60px;
   height: 60px;
   margin-top: 10px;
   margin-left: 3px;
 }
+
 .imgs:last-child {
   margin-right: 0;
 }
+
 /* aside css codes finished */
 
 /* main CSS codes finished */
@@ -167,9 +151,11 @@ hr {
   border-top: 8px solid #4aaaa5;
   text-align: center;
 }
-.foot > p {
-  padding: 30px;
+
+.foot>p {
+  padding: 40px;
   font-size: 12px;
   color: #ccc;
 }
+
 /* footer CSS codes finished */
