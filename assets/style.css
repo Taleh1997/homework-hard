@@ -6,18 +6,47 @@
 }
 
 /* header CSS codes started */
+.head {
+  width: 100%;
+  height: 90px;
+  background-color: #fff;
+  border-bottom: 2px solid #ccc;
+}
 .name {
-  width: 230px;
+  width: 250px;
+  height: 100%;
   font-size: 30px;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 90px;
   color: #fff;
   background-color: #4aaaa5;
   text-align: center;
-  margin-left: 0px;
+  float: left;
+  margin-left: 250px;
   text-decoration: none;
 }
+.nav {
+  width: 400px;
+  height: 100%;
+  float: right;
+  padding: 35px;
+  margin-right: 200px;
+}
+li:not(:last-child) {
+  border-right: 1px solid #efefef;
+}
+.nav > ul > li > a {
+  text-decoration: none;
 
+  color: red;
+  font-size: 18px;
+  color: #999;
+  padding: 20px;
+}
+.nav > ul > li {
+  list-style: none;
+  float: left;
+}
 /* header CSS codes finished */
 
 /* main CSS codes started */
@@ -26,7 +55,6 @@
   height: 550px;
   background-image: url(../images/concrete_seamless.png);
   padding-top: 40px;
-  margin-top: 120px;
 }
 
 .left {
